@@ -13,10 +13,46 @@ a, a:hover, a:visited, a:target, a:link{
 }
 
 
+/* 按钮样式 */
+input, button, textarea, select { font-size:100%; outline:none; resize:none}
+input[type="button"]{cursor:pointer; border:0}
+input[type="submit"]{cursor:pointer; border:0}
+input[type="reset"]{cursor:pointer; border:0}
+
+
+/*删除火狐下按钮默认样式*/
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; padding:0; }
+
+/*图片居中*/
+.lxmimg {
+    display: block;
+    text-align: center;
+}
+.lxmimg img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.lxmimg i {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
 
 /*common style topper*/
 
 .topper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+
     background: #333333;
     color: #B0B0B0;
     height: 40px;
@@ -80,4 +116,105 @@ a, a:hover, a:visited, a:target, a:link{
 .othlink .shopping:hover {
     color: #01ACEE;
     background: #4b4b4b url(../static/top_gouwuche_hover.png) no-repeat 5px center;
+}
+
+
+/*common style header*/
+
+.header {
+    margin-top: 40px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.header .header-in {
+    height: 100px;
+}
+
+.header{
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.nright {
+    margin-top: 27px;
+}
+
+.nav {
+    display: inline;
+    margin-right: 10px;
+    background:none;
+    height:auto;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #333;
+}
+
+.search {
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+    border-right: 0;
+    padding: 9px 0;
+    width: 465px;
+    height: 30px;
+    color: #b9baba;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.search a {
+    float: left;
+    display: inline-block;
+    background: #e3e3e3;
+    margin-right: 5px;
+    padding: 0 10px;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #b9baba;
+    vertical-align: middle;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+.search .inp_text {
+    float: left;
+    padding: 6px 0;
+    margin: 0 15px;
+    border: 0;
+    height: 18px;
+    width: 435px;
+    line-height: 18px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #b9baba;
+}
+
+.sousuo {
+    background: url(../static/sousou.jpg) no-repeat left center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: none;
+    vertical-align: middle;
+}
+
+.bigData-banner-p{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.bigData-banner-p img{
+    max-width: 100%;
+    padding-top: 80px;
+    transition: transform 1s ease-in;
+    transform: scale(1.1);
 }

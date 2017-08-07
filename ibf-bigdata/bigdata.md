@@ -40,4 +40,9 @@
 <a href="#" target="_blank" class="none"></a>
 ```
 
+- topper总结：
+  - topper的dom结构就是div里各包含<p>和<div>，其中div里有又ul/li/a标签组成；
+  - topper主样式，position:fixed，对象显示屏幕来定位；z-index:9999 因为必须保证不能被覆盖，显示在最上方；
+  - 在设置li的上级div时，虽然已经设置了向右浮动，但因为a标签又在li标签中，所有需要再对所有a标签设置display: inline-block;让所有a标签设置在一行的块状元素；
+
 > topper写完~
