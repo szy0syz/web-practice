@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+.idea/
+.idea/inspectionProfiles/
+ibf-bigdata/css/
+ibf-bigdata/js/
+ibf-bigdata/static/
