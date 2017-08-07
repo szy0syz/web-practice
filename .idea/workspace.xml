@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48227713-5c00-44d5-9c17-1c25ff0876dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibf-bigdata/bigdata.md" afterPath="$PROJECT_DIR$/ibf-bigdata/bigdata.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibf-bigdata/index.html" afterPath="$PROJECT_DIR$/ibf-bigdata/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ibf-bigdata/index.html">
+      <file leaf-file-name="bigdata.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ibf-bigdata/css/bigdata.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigdata.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ibf-bigdata/css/bigdata.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ibf-bigdata/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -39,22 +40,23 @@
       <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ibf-bigdata/css/public.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigdata.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bigdata.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ibf-bigdata/bigdata.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="6" />
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
                 <folding>
-                  <marker date="1502071195000" expanded="true" signature="381:501" ph="..." />
-                  <marker date="1502071195000" expanded="true" signature="414:494" ph="..." />
+                  <marker date="1502073815000" expanded="true" signature="420:546" ph="..." />
+                  <marker date="1502073815000" expanded="true" signature="453:539" ph="..." />
+                  <marker date="1502073815000" expanded="true" signature="522:528" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -81,10 +83,10 @@
       <list>
         <option value="$PROJECT_DIR$/ibf-bigdata/js.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/ibf-bigdata/bigdata.md" />
-        <option value="$PROJECT_DIR$/ibf-bigdata/css/public.css" />
         <option value="$PROJECT_DIR$/ibf-bigdata/css/bigdata.css" />
         <option value="$PROJECT_DIR$/ibf-bigdata/index.html" />
+        <option value="$PROJECT_DIR$/ibf-bigdata/css/public.css" />
+        <option value="$PROJECT_DIR$/ibf-bigdata/bigdata.md" />
       </list>
     </option>
   </component>
@@ -231,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502069719885</updated>
-      <workItem from="1502069722521" duration="1795000" />
+      <workItem from="1502069722521" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1795000" />
+    <option name="totallyTimeSpent" value="3266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="213" y="112" width="1501" height="874" extended-state="0" />
@@ -287,41 +289,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ibf-bigdata/bigdata.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="6" />
-            <folding>
-              <marker date="1502071195000" expanded="true" signature="381:501" ph="..." />
-              <marker date="1502071195000" expanded="true" signature="414:494" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ibf-bigdata/css/bigdata.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ibf-bigdata/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ibf-bigdata/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibf-bigdata/bigdata.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <folding>
+              <marker date="1502073815000" expanded="true" signature="420:546" ph="..." />
+              <marker date="1502073815000" expanded="true" signature="453:539" ph="..." />
+              <marker date="1502073815000" expanded="true" signature="522:528" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
