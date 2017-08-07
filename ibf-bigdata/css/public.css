@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+
+a, a:hover, a:visited, a:target, a:link{
+    text-decoration: none;
+    color: #B0B0B0;
+}
+
+
+
+/*common style topper*/
+
+.topper {
+    background: #333333;
+    color: #B0B0B0;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    zoom: 1;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+.fr {
+    float: right;
+    display: inline;
+}
+
+.othlink .none {
+    background: none;
+}
+
+.othlink li {
+    float: left;
+    height: 40px;
+    width: 58px;
+    text-align: center;
+}
+
+.othlink li:nth-last-child(1) {
+    height: 100%;
+    width: 118px;
+}
+
+.othlink li a {
+    height: 40px;
+    width: 58px;
+    color: #b0b0b0;
+    /*这里很重要，要把a元素设置成行内块状元素，才能撑开大小！*/
+    display: inline-block;
+    padding: 0 1px;
+    background: url(../static/sx.jpg) no-repeat left center;
+}
+
+.othlink li a:hover {
+    text-decoration: underline;
+}
+
+.othlink .shopping {
+    padding: 0 10px 0 45px;
+    background: #4b4b4b url(../static/top_gouwuche.png) no-repeat 5px center;
+}
+
+.othlink .shopping:hover {
+    color: #01ACEE;
+    background: #4b4b4b url(../static/top_gouwuche_hover.png) no-repeat 5px center;
+}
