@@ -11,3 +11,19 @@
 
 - topper的position为fixed，相对固定定位，意思就是永远定位在当前屏幕的最顶上。
 
+来整一个emmet玩玩：
+
+- `div.topper>div.w1200.clearfix>p.welworld+div.othlink`
+  1. `.`表示类，后面跟类名，如果有多个类就连着写，但前面还得加`.` 
+  2. `>`表示子元素，后面的所有都是前者的子元素
+  3. `+`表示兄弟元素，后面跟元素标签等
+
+
+```html
+<div class="topper">
+    <div class="w1200 clearfix">
+        <p class="welworld"></p>
+        <div class="othlink"></div>
+    </div>
+</div>
+```
