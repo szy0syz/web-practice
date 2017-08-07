@@ -1,5 +1,9 @@
 # 北风网-数据分析师页面练习
 
+## 前言
+
+> 话说最近帮媳妇找cda(数据分析师)的教程，找到了北风网，然后顺手做一下联系。话说level1和level2的课程中Excel、XMind、Visio、Tableau、ECharts、SPSS、SQL我都玩过，只是Python和一些写作技巧没玩过，是不是我也考一个玩玩。话说，一个cda竟然要还要玩到各种编程语言，这个想要深入真有些难度。
+
 ## 一、dom搭建
 
 ### topper 顶栏
@@ -35,3 +39,5 @@
 ```html
 <a href="#" target="_blank" class="none"></a>
 ```
+
+> topper写完~
