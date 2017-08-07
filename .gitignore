@@ -62,3 +62,6 @@ typings/
 ibf-bigdata/css/
 ibf-bigdata/js/
 ibf-bigdata/static/
+
+.DS_Store
+ibf-bigdata/.DS_Store
