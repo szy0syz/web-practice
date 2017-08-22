@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48227713-5c00-44d5-9c17-1c25ff0876dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibf-bigdata/css/public.css" afterPath="$PROJECT_DIR$/ibf-bigdata/css/public.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibf-bigdata/index.html" afterPath="$PROJECT_DIR$/ibf-bigdata/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wx-h5-transition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/ibf-bigdata/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ibf-bigdata/css/public.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="254" column="14" lean-forward="false" selection-start-line="254" selection-start-column="4" selection-end-line="254" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liebao/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,17 +193,6 @@
               <item name="web-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ibf-bigdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ibf-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -214,9 +213,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/liebao" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wx-h5-transition" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
@@ -247,18 +248,17 @@
       <updated>1502069719885</updated>
       <workItem from="1502069722521" duration="6296000" />
       <workItem from="1502091822894" duration="2929000" />
-      <workItem from="1503409336758" duration="2168000" />
+      <workItem from="1503409336758" duration="2495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11393000" />
+    <option name="totallyTimeSpent" value="11720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="227" y="131" width="1118" height="827" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16590703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16590703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -478,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/ibf-bigdata/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -491,6 +491,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="254" column="14" lean-forward="false" selection-start-line="254" selection-start-column="4" selection-end-line="254" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liebao/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

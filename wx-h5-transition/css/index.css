@@ -1,0 +1,189 @@
+/** rem **/
+html {
+    font-size: 100px;
+}
+
+/*为啥没给.swiper-wrapper加宽高呢，因为框架用position改变位置，所以.swiper-wrapper的高度或者宽度是slide的N倍*/
+/*我靠，main要加宽度和高度，人家格式祖宗元素~*/
+html, body, .main, .swiper-container, .swiper-slide {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    position: relative;
+}
+
+.page1 {
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.page1 img, .page2 img {
+    position: absolute;
+    opacity: 0;
+}
+
+/*audio*/
+.audio {
+    display: none;
+    position: absolute;
+    top: .2rem;
+    right: .2rem;
+    z-index: 99;
+    width: .6rem;
+    height: .6rem;
+    background: url("../audioFile/music.svg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.audio .audioMp3 {
+    display: none;
+}
+
+.audioMove {
+    -webkit-animation: audioMove 1s linear 0s infinite both;
+    animation: audioMove 1s linear 0s infinite both;
+}
+
+@-webkit-keyframes audioMove {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes audioMove {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/*arrow*/
+.arrow {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: .2rem;
+    margin-left: -.24rem;
+    width: .48rem;
+    height: .36rem;
+    z-index: 99;
+    background: url("../img/web-swipe-tip.png") no-repeat;
+    background-size: 100% 100%;
+
+    opacity: 1;
+    -webkit-animation: bounce 1s linear 0s infinite both;
+    animation: bounce 1s linear 0s infinite both;
+}
+
+/*那个2015年*/
+.page1 img:nth-child(4) {
+    left: 2rem;
+    top: 0.28rem;
+    width: .96rem;
+    height: 2.32rem;
+}
+
+.page1 img:nth-child(3) {
+    right: 0;
+    top: 0.28rem;
+    width: 3.7rem;
+    height: 6rem;
+}
+
+.page1 img:nth-child(2) {
+    left: .5rem;
+    bottom: .8rem;
+    width: 5.5rem;
+    height: 5.12rem;
+}
+
+.page1 img:nth-child(1) {
+    left: -1.6rem;
+    bottom: 0;
+    width: 7.86rem;
+    height: 5.88rem;
+    z-index: 9;
+}
+
+.page2 {
+    background: url("../img/bg2.jpg") no-repeat;
+    background-size: cover;
+}
+
+/*因为页面二中三列文字样式大小一样，故统一写*/
+.page2 img {
+    top: 2.5rem;
+    width: .61rem;
+    height: 6.38rem;
+}
+
+.page2 img:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 3.4rem;
+    height: 1.74rem;
+}
+
+.page2 img:nth-child(2) {
+    left: 1.48rem;
+}
+
+.page2 img:nth-child(3) {
+    left: 3.2rem;
+}
+
+.page2 img:nth-child(4) {
+    left: 4.7rem;
+}
+
+#page1 img:nth-child(4) {
+    -webkit-animation: bounceInLeft 1s linear 0s 1 both;
+    animation: bounceInLeft 1s linear 0s 1 both;
+}
+
+#page1 img:nth-child(3) {
+    -webkit-animation: bounceInRight 1s linear .2s 1 both;
+    animation: bounceInRight 1s linear .2s 1 both;
+}
+
+#page1 img:nth-child(2) {
+    -webkit-animation: fadeInUp .9s linear .4s 1 both;
+    animation: fadeInUp .9s linear .4s 1 both;
+}
+
+#page1 img:nth-child(1) {
+    -webkit-animation: fadeInUp .8s linear .6s 1 both;
+    animation: fadeInUp .8s linear .6s 1 both;
+}
+
+#page2 img:nth-child(1) {
+    -webkit-animation: bounceInLeft 1s linear 0s 1 both;
+    animation: bounceInLeft 1s linear 0s 1 both;
+}
+
+#page2 img:nth-child(2) {
+    -webkit-animation: zoomIn 1s linear .2s 1 both;
+    animation: zoomIn 1s linear .2s 1 both;
+}
+
+#page2 img:nth-child(3) {
+    -webkit-animation: zoomIn .9s linear .4s 1 both;
+    animation: zoomIn .9s linear .4s 1 both;
+}
+
+#page2 img:nth-child(4) {
+    -webkit-animation: zoomIn .8s linear .6s 1 both;
+    animation: zoomIn .8s linear .6s 1 both;
+}
