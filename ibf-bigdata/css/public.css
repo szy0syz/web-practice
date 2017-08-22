@@ -7,42 +7,58 @@ ul li, ol li {
     list-style: none;
 }
 
-a, a:hover, a:visited, a:target, a:link{
+a, a:hover, a:visited, a:target, a:link {
     text-decoration: none;
     color: #B0B0B0;
 }
 
-
 /* 按钮样式 */
-input, button, textarea, select { font-size:100%; outline:none; resize:none}
-input[type="button"]{cursor:pointer; border:0}
-input[type="submit"]{cursor:pointer; border:0}
-input[type="reset"]{cursor:pointer; border:0}
+input, button, textarea, select {
+    font-size: 100%;
+    outline: none;
+    resize: none
+}
 
+input[type="button"] {
+    cursor: pointer;
+    border: 0
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    border: 0
+}
+
+input[type="reset"] {
+    cursor: pointer;
+    border: 0
+}
 
 /*删除火狐下按钮默认样式*/
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; padding:0; }
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
 
 /*图片居中*/
 .lxmimg {
     display: block;
     text-align: center;
 }
+
 .lxmimg img {
     max-height: 100%;
     max-width: 100%;
 }
+
 .lxmimg i {
     height: 100%;
     display: inline-block;
     vertical-align: middle;
 }
-
-
-
 
 /*common style topper*/
 
@@ -118,7 +134,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; paddin
     background: #4b4b4b url(../static/top_gouwuche_hover.png) no-repeat 5px center;
 }
 
-
 /*common style header*/
 
 .header {
@@ -130,7 +145,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; paddin
     height: 100px;
 }
 
-.header{
+.header {
     border-bottom: 1px solid #d2d2d2;
 }
 
@@ -141,8 +156,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; paddin
 .nav {
     display: inline;
     margin-right: 10px;
-    background:none;
-    height:auto;
+    background: none;
+    height: auto;
 }
 
 .nav li {
@@ -169,6 +184,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; paddin
     font-size: 14px;
     vertical-align: middle;
 }
+
 .search a {
     float: left;
     display: inline-block;
@@ -184,6 +200,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; paddin
     border: 1px solid #e3e3e3;
     overflow: hidden;
 }
+
 .search .inp_text {
     float: left;
     padding: 6px 0;
@@ -206,15 +223,47 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{ border:none; paddin
     vertical-align: middle;
 }
 
-.bigData-banner-p{
+.bigData-banner {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.bigData-banner-p {
     width: 100%;
     height: auto;
     text-align: center;
 
 }
-.bigData-banner-p img{
+
+.bigData-banner-p img {
     max-width: 100%;
     padding-top: 80px;
     transition: transform 1s ease-in;
     transform: scale(1.1);
+}
+
+.bigData-banner-div img {
+    position: absolute;
+}
+
+.div-img1 {
+    left: 50%;
+    margin-left: -442px;
+}
+
+.div-img2 {
+    left: 50%;
+    margin-left: -212px;
+}
+
+.div-img3 {
+    left: 50%;
+    margin-left: -120px;
+    bottom: 191px;
+}
+
+.div-img1, .div-img2 {
+    margin-top: -77px;
 }
