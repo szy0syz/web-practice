@@ -237,12 +237,28 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 }
 
-.bigData-banner-p img {
+/*.bigData-banner-p-img {*/
+    /*rotate(360deg) scale(1) translateY(0 px) !important;*/
+/*}*/
+
+
+/*.bigData-banner-p img {*/
+    /*max-width: 100%;*/
+    /*padding-top: 80px;*/
+    /*transition: transform 1.5s ease-in;*/
+    /*transform: rotate(0deg) scale(0) translateY(-500px);*/
+/*}*/
+
+.bigData-banner-p img{
     max-width: 100%;
     padding-top: 80px;
-    transition: transform 1s ease-in;
-    transform: scale(1.1);
+    transition: transform 1.5s ease-in;
+    transform: rotate(0deg) scale(0) translateY(-500px);
 }
+.bigData-banner-p-img{
+    transform: rotate(360deg) scale(1) translateY(0px)!important;
+}
+
 
 .bigData-banner-div img {
     position: absolute;
