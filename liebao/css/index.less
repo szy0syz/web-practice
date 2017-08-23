@@ -2,6 +2,7 @@
 //@import (reference) "common.less";
 
 @import "common";
+@import "animation";
 
 .warp {
   display: block;
@@ -102,39 +103,6 @@
   animation: navhover 0.2s linear 0s 1 normal;
   background: rgba(0, 0, 0, 0.1);
   color: #fff;
-}
-
-@-webkit-keyframes navhover {
-  from {
-    opacity: 0;
-    -webkit-transform: scale(0, 1);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-  }
-}
-
-@-moz-keyframes navhover {
-  from {
-    opacity: 0;
-    -moz-transform: scale(0, 1);
-  }
-  to {
-    opacity: 1;
-    -moz-transform: scale(1, 1);
-  }
-}
-
-@keyframes navhover {
-  from {
-    opacity: 0;
-    transform: scale(0, 1);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
 }
 
 .slide {
