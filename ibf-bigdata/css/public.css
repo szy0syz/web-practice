@@ -267,6 +267,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .div-img1 {
     left: 50%;
     margin-left: -442px;
+    animation: img1 3s linear 0s infinite;
 }
 
 .div-img2 {

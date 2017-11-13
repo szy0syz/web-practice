@@ -12,3 +12,19 @@
     background: url("../static/fenxibg.png") no-repeat top center;
     background-size: cover;
 }
+
+/*数据分析师大图上下浮动10对文字的图*/
+@keyframes img1 {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
