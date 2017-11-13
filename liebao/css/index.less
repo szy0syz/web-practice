@@ -1,0 +1,183 @@
+//只引入，不参与编译
+//@import (reference) "common.less";
+
+@import "common";
+@import "animation";
+
+.warp {
+  display: block;
+  position: relative;
+  min-width: 100%;
+}
+
+.warp h1 {
+  display: none;
+}
+
+.w960 {
+  width: 960px;
+}
+
+.nav {
+  width: 100%;
+  height: 89px;
+  position: absolute;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  display: block;
+  background: url("../static/nav-b.png") repeat-x;
+}
+
+.logo {
+  /*因为a是行内元素，也就是文字元素是没有边框大小尺寸的，所以我们得先把它转换成块级元素*/
+  display: block;
+  width: 270px;
+  height: 51px;
+  position: absolute;
+  z-index: 2;
+  top: 19px;
+  left: 50%;
+  margin-left: -480px;
+}
+
+.nav-main {
+  /*这里设置宽度是为了设置一个原始页面宽度，内容全部排布在这个页面里。*/
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+.nav-main a {
+  height: 88px;
+  padding: 0 30px;
+  font-size: 18px;
+  color: #f4f4f4;
+  overflow: hidden;
+  opacity: 0.8;
+  filter: alpha(opacity=20);
+  float: right;
+  /*加定位给i做准备*/
+  position: relative;
+}
+
+/*常年亮着首页*/
+.nav-main:last-child {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.nav-main a em {
+  height: 88px;
+  line-height: 88px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.nav-main a i {
+  width: 100%;
+  height: 88px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-main a:hover em, .nav-main a.cur {
+  color: #ffffff;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.nav-main a i.nav-hover {
+  display: block;
+  animation-name: navhover;
+  -webkit-animation: navhover 0.2s linear 0s 1 normal;
+  -moz-animation: navhover 0.2s linear 0s 1 normal;
+  animation: navhover 0.2s linear 0s 1 normal;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.slide {
+  height: 490px;
+}
+
+#bgstyleb {
+  background: #193d85;
+  padding-top: 89px;
+}
+
+.obj-c, .obj-d {
+  position: absolute;
+  z-index: 9;
+  left: 50%;
+}
+
+.obj-c {
+  height: 582px;
+  top: 0;
+  margin-left: -28.5%;
+}
+
+.obj-d {
+  top: 180px;
+  height: 164px;
+  margin-left: 0;
+}
+
+.obj-d p {
+  display: block;
+  padding-top: 13px;
+  font-size: 16px;
+  color: #ffffff;
+  clear: both;
+}
+
+.btn0515 {
+  position: relative;
+  display: block;
+  width: 230px;
+  height: 95px;
+  left: -15px;
+  background: url("../static/button20170515.png") no-repeat left top;
+}
+
+.btn0515:hover {
+  background-position: -248px 0;
+}
+
+
+//-----feature Aera-----//
+.ft-main {
+  height: 248px;
+  border: none;
+  background: #fff;
+
+  .ft-list {
+    position: relative;
+
+    a {
+      display: block;
+      height: 248px;
+      cursor: default;
+    }
+
+    .icon-sb {
+      width: 100px;
+      height: 100px;
+      top: 32px;
+      left: 70px;
+      display: block;
+      position: absolute;
+      background: url("../static/aaaa_03.jpg") center center no-repeat;
+    }
+  }
+
+}

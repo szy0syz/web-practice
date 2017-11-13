@@ -142,3 +142,42 @@
     background: #193d85;
     padding-top: 89px;
 }
+
+.obj-c, .obj-d {
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+}
+
+.obj-c {
+    height: 582px;
+    top: 0;
+    margin-left: -28.5%;
+}
+
+.obj-d {
+    top: 180px;
+    height: 164px;
+    margin-left: 0;
+}
+
+.obj-d p {
+    display: block;
+    padding-top: 13px;
+    font-size: 16px;
+    color: #ffffff;
+    clear: both;
+}
+
+.btn0515 {
+    position: relative;
+    display: block;
+    width: 230px;
+    height: 95px;
+    left: -15px;
+    background: url("../static/button20170515.png") no-repeat left top;
+}
+
+.btn0515:hover {
+    background-position: -248px 0px;
+}
